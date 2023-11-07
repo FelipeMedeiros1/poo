@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class teste {
     private static final String SEPARADOR = "================================================================================================================";
+
     public static void main(String[] args) {
 
         Curso curso = new Curso();
@@ -33,23 +34,15 @@ public class teste {
         dev.inscricaoCurso(bootcamp);
 
         System.out.println(SEPARADOR);
-        System.out.println("Conteúdos inscritos Felipe: "+ dev.getConteudosInscritos());
+        System.out.println("Conteúdos inscritos Felipe: " + dev.getConteudosInscritos());
         dev.progredir();
         dev.progredir();
         System.out.println(SEPARADOR);
-        System.out.println("Conteúdos inscritos Felipe: "+ dev.getConteudosInscritos());
+        System.out.println("Conteúdos inscritos Felipe: " + dev.getConteudosInscritos());
         System.out.println(SEPARADOR);
-        System.out.println("Conteúdos concluídos Felipe: "+ dev.getConteudosConcluidos());
+        System.out.println("Conteúdos concluídos Felipe: " + dev.getConteudosConcluidos());
         System.out.println(SEPARADOR);
-        System.out.println("Pontuação: "+ dev.calcularPontuacao());
-
-
-
-
-
-
-
-
+        System.out.println("Pontuação: " + dev.calcularPontuacao());
 
 
     }
