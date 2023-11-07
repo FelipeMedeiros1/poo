@@ -3,7 +3,7 @@ package poo.dominio;
 import java.time.LocalDate;
 
 public class teste {
-    private static final String SEPARADOR = "========================================================================================";
+    private static final String SEPARADOR = "================================================================================================================";
     public static void main(String[] args) {
 
         Curso curso = new Curso();
